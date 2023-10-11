@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "public/index.js",
+  "type": "module",
   "scripts": {
     "prepare": "husky install",
-    "start": "node . --watch"
+    "start": "node .",
+    "start:dev": "node --watch public/index.js"
   },
   "keywords": [],
   "author": "",
